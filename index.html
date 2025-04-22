@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Cooking App</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>Welcome to My Cooking App</h1>
+
+    <!-- 🍽️ Home Page Image -->
+    <img
+      src="https://img.freepik.com/free-photo/top-view-table-full-delicious-food-composition_23-2149141350.jpg"
+      class="header-image"
+      alt="Delicious Food Banner"
+    />
+
+    <!-- 📋 Available Recipes -->
+    <div id="available-recipes">
+      <h2>Available Recipes</h2>
+      <ul id="recipe-list"></ul>
+    </div>
+
+    <!-- 🍲 Recipe Details Section -->
+    <div id="recipe-details" style="display: none;">
+      <button id="back-button">⬅ Back to Recipes</button>
+      <h2 id="recipe-name"></h2>
+      <img id="recipe-image" src="" alt="Recipe Image">
+      <div id="recipe-ingredients"></div>
+      <div id="recipe-instructions"></div>
+      <div id="recipe-tips"></div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
